@@ -1,6 +1,22 @@
-## Script for doing Battery Health Check on your Windows Laptop ##
-## Script by David Graciano (itslearning.dave@gmail.com)
-## Copyright © 2026 David Graciano
+<#
+.SYNOPSIS
+Generate a Windows battery health report using PowerShell *.ps1 script.
+
+.DESCRIPTION
+Runs the Windows powercfg battery report command and saves the result as a timestamped HTML file in a user-specified directory.
+
+.AUTHOR
+David Graciano (itslearning.dave@gmail.com)
+
+.VERSION
+1.0
+
+.LICENSE
+MIT License
+
+.COPYRIGHT
+Copyright © 2026 David Graciano
+#>
 
 # Define variables
 $VerbosePreference = "Continue"
@@ -51,3 +67,4 @@ powercfg /batteryreport /output "$OutputFile"
 # Verbose progress in Terminal
 Write-Host "Battery report generated successfully!" -ForegroundColor Green
 Write-Host "File saved to: $OutputFile" -ForegroundColor Cyan
+
