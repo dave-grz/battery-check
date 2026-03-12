@@ -160,11 +160,11 @@ The generated HTML battery report typically includes:
 
 ## License
 
-[![License: MIT](https://img.shields.io/badge/License-MIT-750014)](https://github.com/dave-grz/battery-check/LICENSE.txt)
+[![License: MIT](https://img.shields.io/badge/License-MIT-750014)](https://github.com/dave-grz/battery-check/blob/main/LICENSE)
 
 MIT License
 
-_See [LICENSE](https://github.com/dave-grz/battery-check/LICENSE.txt) for details._
+_See [LICENSE](https://github.com/dave-grz/battery-check/blob/main/LICENSE) for details._
 
 ---
 
