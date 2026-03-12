@@ -65,7 +65,7 @@ Example:
 ### 1. Clone or Download the Script
 
 ```bash
-git clone https://github.com/yourusername/battery-report-script.git
+git clone https://github.com/dave-grz/battery-check.git
 ```
 
 Or download the `.ps1` file.
